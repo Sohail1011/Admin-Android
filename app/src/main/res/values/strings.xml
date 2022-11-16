@@ -11,4 +11,7 @@
     <string name="last_name">Last Name</string>
     <string name="country">Country</string>
     <string name="required">Required*</string>
+    <string name="create">Create</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="cancel">Cancel</string>
 </resources>

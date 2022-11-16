@@ -5,6 +5,7 @@
     <color name="third">#3a506b</color>
     <color name="four">#5bc0be</color>
     <color name="five">#6fffe9</color>
+    <color name="red">#FF0000</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

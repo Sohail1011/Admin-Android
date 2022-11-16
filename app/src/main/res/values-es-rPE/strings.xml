@@ -5,4 +5,11 @@
     <string name="e_mail">Correo</string>
     <string name="password">Contraseña</string>
     <string name="longin">Iniciar Sesión</string>
+    <string name="skip">Omitir</string>
+    <string name="sign_up">Registrar</string>
+    <string name="register_now">Registrese Ahora</string>
+    <string name="name">Nombres</string>
+    <string name="last_name">Apellidos</string>
+    <string name="country">País</string>
+    <string name="required">Requerido*</string>
 </resources>

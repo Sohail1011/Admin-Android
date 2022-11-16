@@ -4,4 +4,11 @@
     <string name="e_mail">E-mail</string>
     <string name="password">Password</string>
     <string name="longin">Long In</string>
+    <string name="skip">Skip</string>
+    <string name="sign_up">Sign up</string>
+    <string name="register_now">Register Now</string>
+    <string name="name">Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="country">Country</string>
+    <string name="required">Required*</string>
 </resources>

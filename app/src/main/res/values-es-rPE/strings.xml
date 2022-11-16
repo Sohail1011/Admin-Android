@@ -15,4 +15,8 @@
     <string name="create">Crear</string>
     <string name="phone_number">Número de Celular</string>
     <string name="cancel">Cancelar</string>
+    <string name="home">Inicio</string>
+    <string name="rooms">Cuartos</string>
+    <string name="prices">Precios</string>
+    <string name="profile">Perfil</string>
 </resources>

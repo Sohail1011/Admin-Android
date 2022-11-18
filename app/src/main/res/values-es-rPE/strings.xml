@@ -19,4 +19,12 @@
     <string name="rooms">Cuartos</string>
     <string name="prices">Precios</string>
     <string name="profile">Perfil</string>
+    <string-array name="countries">
+        <item>Perú</item>
+        <item>Chile</item>
+        <item>Argentina</item>
+        <item>México</item>
+        <item>Uruguay</item>
+        <item>Bolivia</item>
+    </string-array>
 </resources>

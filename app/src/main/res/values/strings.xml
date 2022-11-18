@@ -18,4 +18,12 @@
     <string name="rooms">Rooms</string>
     <string name="prices">Prices</string>
     <string name="profile">Profile</string>
+    <string-array name="countries">
+        <item>Peru</item>
+        <item>Chile</item>
+        <item>Argentina</item>
+        <item>Mexico</item>
+        <item>Uruguay</item>
+        <item>Bolivia</item>
+    </string-array>
 </resources>

@@ -172,6 +172,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_slab"
             android:inputType="phone"
+            android:maxLength="9"
             android:textColorHint="#757575" />
     </com.google.android.material.textfield.TextInputLayout>
 

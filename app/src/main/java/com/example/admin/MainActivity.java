@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent press = new Intent(this, RegisterActivity.class);
         startActivity(press);
     }
+
+    public void ComponentsOpen(View view) {
+        Intent press = new Intent(this, ComponentsActivity.class);
+        startActivity(press);
+    }
 }

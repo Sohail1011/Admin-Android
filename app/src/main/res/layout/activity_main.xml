@@ -105,6 +105,7 @@
         android:backgroundTint="@color/third"
         android:elevation="0sp"
         android:fontFamily="@font/roboto_slab_light"
+        android:onClick="ComponentsOpen"
         android:text="@string/skip"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

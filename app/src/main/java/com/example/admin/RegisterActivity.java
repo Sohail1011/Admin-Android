@@ -4,6 +4,7 @@ import static android.widget.Toast.*;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
@@ -41,5 +42,10 @@ public class RegisterActivity extends AppCompatActivity {
                 String item = parent.getItemAtPosition(position).toString();
             }
         });
+    }
+
+    public void OpenComponents(View view) {
+        Intent intent = new Intent(this, ComponentsActivity.class);
+        startActivity(intent);
     }
 }

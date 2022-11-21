@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Administrador</string>
-    <string name="welcome">Bienvenido</string>
+    <string name="welcome">El Sol</string>
     <string name="e_mail">Correo</string>
     <string name="password">Contraseña</string>
     <string name="longin">Iniciar Sesión</string>

@@ -19,6 +19,11 @@
     <string name="rooms">Cuartos</string>
     <string name="prices">Precios</string>
     <string name="profile">Perfil</string>
+    <string name="estado">Estado</string>
+    <string name="ofertas">Ofertas</string>
+    <string name="acciones">Acciones</string>
+    <string name="vuelos">Vuelos</string>
+    <string name="reservas">Reservas</string>
     <string-array name="countries">
         <item>Perú</item>
         <item>Chile</item>

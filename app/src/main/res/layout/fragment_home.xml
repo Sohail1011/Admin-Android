@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/four"
-    tools:context=".HomeFragment">
+    android:background="@color/third"
+    tools:context=".Fragments.HomeFragment">
+
+    <TextView
+        android:id="@+id/titleMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@id/titleMain"
         android:layout_margin="20dp"
+        android:alignmentMode="alignMargins"
         android:columnCount="2"
         android:rowCount="3">
 
@@ -42,7 +55,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_slab_bold"
-                    android:text="Estado"
+                    android:text="@string/estado"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -76,7 +89,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_slab_bold"
-                    android:text="Acciones"
+                    android:text="@string/acciones"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -144,7 +157,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_slab_bold"
-                    android:text="Ofertas"
+                    android:text="@string/ofertas"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -179,7 +192,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_slab_bold"
-                    android:text="Vuelos"
+                    android:text="@string/vuelos"
                     android:textAlignment="center"
                     android:textStyle="bold" />
 
@@ -215,7 +228,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_slab_bold"
-                    android:text="Reservas"
+                    android:text="@string/reservas"
                     android:textAlignment="center"
                     android:textStyle="bold" />
 
@@ -225,4 +238,4 @@
 
     </GridLayout>
 
-</LinearLayout>
+</RelativeLayout>

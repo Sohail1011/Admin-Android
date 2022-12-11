@@ -7,6 +7,10 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 
+import com.example.admin.Fragments.HomeFragment;
+import com.example.admin.Fragments.PriceFragment;
+import com.example.admin.Fragments.ProfileFragment;
+import com.example.admin.Fragments.RoomsFragment;
 import com.example.admin.databinding.ActivityComponentsBinding;
 
 public class ComponentsActivity extends AppCompatActivity {
